@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "description": "Results summary component tokens",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "npm run build && chokidar \"dictionaries/**/*.json\" -c \"npm run build\"",
+    "build": "node build.mjs"
   },
   "private": true,
   "author": "",
