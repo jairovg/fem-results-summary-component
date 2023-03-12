@@ -9,14 +9,14 @@ const mixinName = (props) =>
 export default {
   name: 'scss/mixin',
   formatter({ dictionary }) {
-    const mixinProperties = dictionary.allProperties.filter((p) => p.mixin);
-    const mixinNames = [...new Set(mixinProperties.map(mixinName))];
+    const mixinTokens = dictionary.allTokens.filter((p) => p.mixin);
+    const mixinNames = [...new Set(mixinTokens.map(mixinName))];
 
     return mixinNames
       .map((m) => {
-        const properties = mixinProperties
-          .filter((p) => m === mixinName(p))
-          .map((p) => `${p.property}: ${p.value};`);
+        const properties = mixinTokens
+          .filter((token) => m === mixinName(token))
+          .map((token) => `${token.property}: ${token.value};`);
 
         return `@mixin ${m}() {
   ${properties.join('\n  ')}
