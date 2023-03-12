@@ -1,0 +1,64 @@
+{
+  "config": {
+    "font": {
+      "family": {
+        "sans": {
+          "value": "'Hanken Grotesk', sans-serif"
+        }
+      },
+      "style": {
+        "normal": {
+          "value": "normal"
+        }
+      },
+      "weight": {
+        "regular": {
+          "value": "500"
+        },
+        "bold": {
+          "value": "700"
+        },
+        "bolder": {
+          "value": "800"
+        }
+      },
+      "height": {
+        "100": {
+          "value": "2.085rem"
+        },
+        "200": {
+          "value": "2.345rem"
+        },
+        "300": {
+          "value": "3.127rem"
+        },
+        "400": {
+          "value": "4.17rem"
+        },
+        "500": {
+          "value": "7.2rem"
+        }
+      },
+      "size": {
+        "100": {
+          "value": "1.6rem"
+        },
+        "200": {
+          "value": "1.8rem"
+        },
+        "300": {
+          "value": "2.4rem"
+        },
+        "400": {
+          "value": "3.2rem"
+        },
+        "500": {
+          "value": "5.6rem"
+        },
+        "600": {
+          "value": "7.2rem"
+        }
+      }
+    }
+  }
+}
