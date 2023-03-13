@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "watch": "npm run build && chokidar \"dictionaries/**/*.json\" -c \"npm run build\"",
+    "start": "npm run build && chokidar \"dictionaries/**/*.json\" -c \"npm run build\"",
     "build": "node build.mjs"
   },
   "private": true,

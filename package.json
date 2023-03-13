@@ -5,7 +5,8 @@
   "scripts": {
     "commit": "cz",
     "pre-commit": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "nx run-many --target=start"
   },
   "private": true,
   "devDependencies": {
