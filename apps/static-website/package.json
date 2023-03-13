@@ -4,9 +4,21 @@
   "description": "Results summary component static-website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "build": "vite build",
+    "prebuild": "rimraf dist",
+    "preview": "vite preview"
   },
   "private": true,
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "rimraf": "^4.1.2",
+    "sass": "^1.58.3",
+    "vite": "^4.1.4"
+  },
+  "dependencies": {
+    "@fem-rsc/tokens": "^0.0.0"
+  }
 }
