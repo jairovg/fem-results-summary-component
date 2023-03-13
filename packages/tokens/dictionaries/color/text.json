@@ -1,0 +1,9 @@
+{
+  "color": {
+    "text": {
+      "primary": {
+        "value": "{config.color.neutral.dark.value}"
+      }
+    }
+  }
+}
