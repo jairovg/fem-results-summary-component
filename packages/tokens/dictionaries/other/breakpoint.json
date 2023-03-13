@@ -1,0 +1,10 @@
+{
+  "breakpoint": {
+    "xs": {
+      "value": "375px"
+    },
+    "lg": {
+      "value": "1440px"
+    }
+  }
+}
