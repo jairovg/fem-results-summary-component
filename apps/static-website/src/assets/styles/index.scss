@@ -1,3 +1,6 @@
 @use '@fem-rsc/tokens/dist/css/colors.css';
 @use 'resets';
 @use 'global';
+
+// The following uses would become in module imports
+@use 'components/main';

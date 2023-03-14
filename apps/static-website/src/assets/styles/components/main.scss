@@ -1,0 +1,7 @@
+@use '@fem-rsc/tokens/dist/scss/tokens' as *;
+
+.main {
+  @media screen and (min-width: $fem-breakpoint-lg) {
+    margin-top: $fem-offset-2300;
+  }
+}
