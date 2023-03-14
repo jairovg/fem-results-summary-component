@@ -1,0 +1,13 @@
+{
+  "radius": {
+    "100": {
+      "value": "{config.size.300.value}"
+    },
+    "200": {
+      "value": "{config.size.1300.value}"
+    },
+    "300": {
+      "value": "{config.size.2300.value}"
+    }
+  }
+}
