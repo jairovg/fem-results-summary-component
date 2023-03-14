@@ -1,0 +1,80 @@
+{
+  "color": {
+    "gradient": {
+      "blue": {
+        "100": {
+          "value": "{config.color.neutral.lightest.value}",
+          "modify": [
+            {
+              "type": "alpha",
+              "amount": 0.95
+            }
+          ]
+        },
+        "200": {
+          "value": "{config.color.secondary.blue.lighter.value}"
+        },
+        "300": {
+          "value": "{config.color.secondary.blue.light.value}"
+        },
+        "400": {
+          "value": "{config.color.secondary.blue.dark.value}"
+        },
+        "500": {
+          "value": "{config.color.secondary.blue.darker.value}"
+        },
+        "600": {
+          "value": "{config.color.secondary.blue.darkest.value}",
+          "modify": [
+            {
+              "type": "alpha",
+              "amount": 0
+            }
+          ]
+        }
+      },
+      "green": {
+        "100": {
+          "value": "{config.color.neutral.lightest.value}",
+          "modify": [
+            {
+              "type": "alpha",
+              "amount": 0.95
+            }
+          ]
+        },
+        "200": {
+          "value": "{config.color.secondary.green.light.value}"
+        }
+      },
+      "red": {
+        "100": {
+          "value": "{config.color.neutral.lightest.value}",
+          "modify": [
+            {
+              "type": "alpha",
+              "amount": 0.95
+            }
+          ]
+        },
+        "200": {
+          "value": "{config.color.secondary.red.light.value}"
+        }
+      },
+      "yellow": {
+        "100": {
+          "value": "{config.color.neutral.lightest.value}",
+          "modify": [
+            {
+              "type": "alpha",
+              "amount": 0.95
+            }
+          ]
+        },
+        "200": {
+          "value": "{config.color.secondary.yellow.light.value}"
+        }
+      }
+    }
+  }
+}
