@@ -1,0 +1,35 @@
+@use '@fem-rsc/tokens/dist/scss/mixins' as *;
+@use '@fem-rsc/tokens/dist/scss/tokens' as *;
+
+.summary {
+  &__title {
+    margin-bottom: $fem-offset-900;
+    color: var(--fem-color-text-secondary-inverted);
+
+    @extend %fem-text-heading-sans-100;
+
+    @media screen and (min-width: $fem-breakpoint-lg) {
+      margin-bottom: $fem-offset-1100;
+      font-size: $fem-text-heading-sans-200-size;
+      line-height: $fem-text-heading-sans-200-height;
+    }
+  }
+
+  &__list {
+    display: grid;
+    row-gap: $fem-offset-500;
+    margin-bottom: $fem-offset-900;
+
+    @media screen and (min-width: $fem-breakpoint-lg) {
+      margin-bottom: $fem-offset-1600;
+    }
+  }
+
+  &__item {
+    width: 31.5rem;
+
+    @media screen and (min-width: $fem-breakpoint-lg) {
+      width: 28.8rem;
+    }
+  }
+}

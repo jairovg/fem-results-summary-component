@@ -1,0 +1,93 @@
+@use '@fem-rsc/tokens/dist/scss/mixins' as *;
+@use '@fem-rsc/tokens/dist/scss/tokens' as *;
+
+.result {
+  position: relative;
+  display: flex;
+  column-gap: $fem-offset-700;
+  justify-content: space-between;
+  border-radius: $fem-offset-300;
+  padding: $fem-offset-600 $fem-offset-500 $fem-offset-500
+    ($fem-offset-500 + $fem-offset-700 + $fem-offset-300);
+
+  @media screen and (min-width: $fem-breakpoint-lg) {
+    font-size: $fem-text-body-200-size;
+    line-height: $fem-text-body-200-height;
+  }
+
+  &--danger {
+    color: var(--fem-color-text-accent-danger);
+    background: linear-gradient(
+        0deg,
+        var(--fem-color-gradient-red-100),
+        var(--fem-color-gradient-red-100)
+      ),
+      var(--fem-color-gradient-red-200);
+
+    &::before {
+      mask-image: url('@/assets/icons/icon-reaction.svg');
+      background-color: var(--fem-color-text-accent-danger);
+    }
+  }
+
+  &--warning {
+    color: var(--fem-color-text-accent-warning);
+    background: linear-gradient(
+        0deg,
+        var(--fem-color-gradient-yellow-100),
+        var(--fem-color-gradient-yellow-100)
+      ),
+      var(--fem-color-gradient-yellow-200);
+
+    &::before {
+      mask-image: url('@/assets/icons/icon-memory.svg');
+      background-color: var(--fem-color-text-accent-warning);
+    }
+  }
+
+  &--success {
+    color: var(--fem-color-text-accent-success);
+    background: linear-gradient(
+        0deg,
+        var(--fem-color-gradient-green-100),
+        var(--fem-color-gradient-green-100)
+      ),
+      var(--fem-color-gradient-green-200);
+
+    &::before {
+      mask-image: url('@/assets/icons/icon-verbal.svg');
+      background-color: var(--fem-color-text-accent-success);
+    }
+  }
+
+  &--info {
+    color: var(--fem-color-text-accent-info);
+    background: linear-gradient(
+        0deg,
+        var(--fem-color-gradient-blue-100),
+        var(--fem-color-gradient-blue-100)
+      ),
+      var(--fem-color-gradient-blue-200);
+
+    &::before {
+      mask-image: url('@/assets/icons/icon-visual.svg');
+      background-color: var(--fem-color-text-accent-info);
+    }
+  }
+
+  &::before {
+    position: absolute;
+    content: '';
+    width: $fem-offset-700;
+    height: $fem-offset-700;
+    left: $fem-offset-500;
+  }
+
+  &__score {
+    color: var(--fem-color-text-tertiary);
+
+    &--soft {
+      opacity: 0.5;
+    }
+  }
+}
