@@ -1,0 +1,73 @@
+{
+  "offset": {
+    "100": {
+      "value": "{config.size.100.value}"
+    },
+    "200": {
+      "value": "{config.size.200.value}"
+    },
+    "300": {
+      "value": "{config.size.300.value}"
+    },
+    "400": {
+      "value": "{config.size.400.value}"
+    },
+    "500": {
+      "value": "{config.size.500.value}"
+    },
+    "600": {
+      "value": "{config.size.600.value}"
+    },
+    "700": {
+      "value": "{config.size.700.value}"
+    },
+    "800": {
+      "value": "{config.size.800.value}"
+    },
+    "900": {
+      "value": "{config.size.900.value}"
+    },
+    "1000": {
+      "value": "{config.size.1000.value}"
+    },
+    "1100": {
+      "value": "{config.size.1100.value}"
+    },
+    "1200": {
+      "value": "{config.size.1200.value}"
+    },
+    "1300": {
+      "value": "{config.size.1300.value}"
+    },
+    "1400": {
+      "value": "{config.size.1400.value}"
+    },
+    "1500": {
+      "value": "{config.size.1500.value}"
+    },
+    "1600": {
+      "value": "{config.size.1600.value}"
+    },
+    "1700": {
+      "value": "{config.size.1700.value}"
+    },
+    "1800": {
+      "value": "{config.size.1800.value}"
+    },
+    "1900": {
+      "value": "{config.size.1900.value}"
+    },
+    "2000": {
+      "value": "{config.size.2000.value}"
+    },
+    "2100": {
+      "value": "{config.size.2100.value}"
+    },
+    "2200": {
+      "value": "{config.size.2200.value}"
+    },
+    "2300": {
+      "value": "{config.size.2400.value}"
+    }
+  }
+}
